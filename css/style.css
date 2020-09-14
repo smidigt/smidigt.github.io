@@ -1,0 +1,31 @@
+*{
+    margin:0px auto;
+    font-family: 'Open Sans', sans-serif;
+  }
+  /*  Lite style   */
+  .header{
+    padding-top:2.5vh;
+    padding-bottom: 2.5vh;
+    background-color: rgba(0,0,0,0.8);
+    color:rgba(255,255,255,0.8);
+    z-index: -1;
+    text-align: center;
+  }
+  /*  Lite style   */
+  .section{
+    padding-top: 12.5vh;
+    padding-bottom: 12.5vh;
+    background-color: rgba(0,0,0,0.9);
+    color:rgba(237,79,36,0.7);
+    text-align: center;
+    border: none;
+    height: 62vh;
+  }
+   /*   text till stora bokstäver    */ 
+  .headerH{
+    text-transform: uppercase;
+  }
+  /*  La till lite radavstånd  */
+  .headerP{
+      margin: 0.5vh;
+  }
