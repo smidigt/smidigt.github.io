@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Inlämning 1</title>
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Inläming 1">
+    <meta name="author" content="Kristoffer Larsson">
+    <meta name="description" content="Detta blir en liten pressentation.">
+    <meta name="keywords" content="Inlämning","kristoffer","larsson">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="header" id="sectionOne">
+        <header>
+         <!-- Header/logo -->
+            <h1>KRISTOFFER</h1>
+         <!-- under rubrik -->
+             <h2>LARSSON</h2>
+        </header>
+        <div class="nav">
+            <a href="info.html">Info</a>
+            <a href="Ommig.html">om mig</a>
+            <a href="portfolio.html">portfolio</a>
+            <a href="kontakt.html" id="active">kontakt</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <!-- PHP/Node.js form egentligen. men du skrev form så antar att detta är något du ville ha
+            Denna form kommer inte fungera då jag varken lagt till php eller node.js. men den ser helt okej ut iaf.
+        -->
+         <form action="kontakt.html">
+
+            <label for="fName">First Name!</label>
+            <input type="text" id="fName" name="firstname" placeholder="Add your name!">
+
+            <label for="lName">Last Name</label>
+            <input type="text" id="lName" name="lastname" placeholder="Add your lastname">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="Email" placeholder="Add your email"
+
+            <label for="contry">Your Contry</label>
+            <select id="contry" name="contry">
+                <option value="sverige">Sverige</option>
+                <option value="finland">Finland</option>
+                <option value="danmark">Danmark</option>
+                <option value="norge">Norge</option>
+                <option value="usa">USA</option>
+                <option value="england">England</option>
+                <option value="dubai">Dubai</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write me somthing :)"></textarea>
+
+            <input type="submit" value="Send"/>
+         </form>
+      </div>
+
+      <!-- Här bör det minst vara en footer också -->
+      <footer class="footer"><a href="mailto:kristoffer@codebros.se">Kontakt me</a></footer>
+</body>
+</html>
